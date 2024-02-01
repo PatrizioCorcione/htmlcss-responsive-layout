@@ -3,6 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: blue;
+}
 /*UTILITY*/
 .row{
   margin: 0px 30px;
@@ -38,6 +50,13 @@
   margin: 0 auto;
   padding: 30px 0px;
 }
+.get{
+  margin-top: 100px;
+}
+ul{
+  display: none;
+}
+
 
 .card-sm,
 .card-lg,
@@ -80,7 +99,7 @@ img{
 
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 767px){
   .get .row{
     flex-direction: row;
   }
@@ -98,6 +117,15 @@ img{
   .testim .colum{
     width: 100%;
   }
-
-
+}
+@media only screen and (min-width: 1199px){
+  .strat .row{
+    flex-wrap: nowrap;
+  }
+  ul{
+    display: flex;
+  }
+  .burger{
+    display: none;
+  }
 }
