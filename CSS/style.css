@@ -22,35 +22,34 @@
 .d-flex{
   display: flex;
 }
-.pad-top-sm{
-  padding-top:40px ;
-}
+
 .container{
   max-width: 1100px;
   margin: 0 auto;
   margin-top: 35px;
 }
+
 .card-sm,
 .card-lg,
 .card-m,
-.card-xl
-{
+.card-xl{
   width: 310px;
   margin-bottom: 30px;
   background-color: brown;
   height: 350px;
 }
+
 .card-lg{
   height: 600px;
 }
+
 .card-m{
   height: 400px;
 }
+
 .card-xl{
   height: 700px;
 }
-
-/*HEADER*/
 
 img{
   width: 100%;
@@ -60,47 +59,16 @@ img{
   background-color: blueviolet;
 }
 
-
-
-
-
-
-
-/*MEDIA*/
-/*@media only screen and (min-width: 768px){
-  .get{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .card-get{
-    margin-right: 10px;
-  }
-  .card-get:first-child{
-    width: 55%;
-  }
-  .card-get:nth-child(2){
-    width: 42%;
-  }
-  .card-get{
-    width: calc(96% / 3);
-  }*/
-
-
-  .plan{
-    display: flex;
-  }
-  .left-content {
-    margin-right: 10px;
-    width: 50%;
-  }
-  .right-content {
-    width: 50%;
-  }
-  .card-plan {
-    height: 70%;
-    margin-top: 134px;
-  }
+.back-black{
+  background-color: black;
 }
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 1200px){
   .plan{
