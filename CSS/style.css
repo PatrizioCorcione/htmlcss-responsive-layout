@@ -6,3 +6,11 @@
 img{
   width: 100%;
 }
+.top{
+  display: flex;
+  justify-content: space-between;
+  height:75px ;
+  background-color: blue;
+  align-items: center;
+  padding: 0px 30px;
+}
