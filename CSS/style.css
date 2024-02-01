@@ -4,15 +4,25 @@
   box-sizing: border-box;
 }
 /*UTILITY*/
+.row{
+  margin: 0px 30px;
+}
 .txt-center{
   text-align: center;
+}
+.all-item{
+  align-items: center;
 }
 .debug{
   border: 1px solid black;
 }
+.dir-collum{
+  flex-direction: column;
+}
 .wrap{
   flex-wrap: wrap;
 }
+
 .just-cent{
   justify-content: center;
 }
@@ -24,17 +34,17 @@
 }
 
 .container{
-  max-width: 1100px;
+  width: 99%;
   margin: 0 auto;
-  margin-top: 35px;
+  padding: 30px 0px;
 }
 
 .card-sm,
 .card-lg,
 .card-m,
 .card-xl{
+  margin: 20px 0px;
   width: 310px;
-  margin-bottom: 30px;
   background-color: brown;
   height: 350px;
 }
@@ -70,12 +80,24 @@ img{
 
 
 
-@media only screen and (min-width: 1200px){
-  .plan{
-    display: inline-block;
+@media only screen and (min-width: 768px){
+  .get .row{
+    flex-direction: row;
   }
-  .left-content,.right-content{
+
+  .get .colum:first-child{
+    width: 60%;
+  }
+  .get .colum:nth-child(2){
+    width: 40%;
+  }
+  .get .colum{
+    width: calc(100% / 3);
+  }
+  .strat .colum,
+  .testim .colum{
     width: 100%;
   }
+
 
 }
