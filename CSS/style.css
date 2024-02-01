@@ -32,7 +32,8 @@
 }
 .card-sm,
 .card-lg,
-.card-m
+.card-m,
+.card-xl
 {
   width: 310px;
   margin-bottom: 30px;
@@ -44,6 +45,9 @@
 }
 .card-m{
   height: 400px;
+}
+.card-xl{
+  height: 700px;
 }
 
 /*HEADER*/
