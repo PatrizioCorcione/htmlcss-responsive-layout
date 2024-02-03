@@ -43,7 +43,7 @@ body{
   text-decoration: none;
 }
 .line-h{
-  line-height: 25px;
+  line-height: 35px;
 }
 .posit-rela{
   position: relative;
@@ -237,30 +237,6 @@ body{
 }
 
 
-.card-sm,
-.card-lg,
-.card-m,
-.card-xl{
-  margin: 20px 0px;
-  width: 310px;
-  background-color: brown;
-  height: 350px;
-}
-
-.card-lg{
-  height: 600px;
-}
-
-.card-m{
-  height: 400px;
-}
-
-.card-xl{
-  height: 700px;
-}
-
-
-
 
 
 @media only screen and (min-width: 767px){
@@ -289,8 +265,27 @@ body{
   .strat-txt h2{
     font-size: 5rem;
   }
-  .testim .div{
+  .testim .card{
     flex-direction: row;
+  }
+  .testi-txt h2{
+    font-size: 3rem;
+  }
+  .benef .colum{
+    width: calc(100% / 2 - 15px);
+  }
+  .benef-txt h2{
+    font-size: 3rem;
+  }
+  .abaut .colum{
+    display: flex;
+  }
+  .abaut-txt{
+    width: 80%;
+    margin-right: 150px;
+  }
+  .abaut-img{
+    width: 50%;
   }
   
 }
@@ -304,5 +299,12 @@ body{
   }
   .burger{
     display: none;
+  }
+  .strat .colum:nth-child(2){
+    margin-bottom: 0;
+    margin-top: 100px;
+  }
+  .benef .colum{
+    width: calc(100% / 3 - 15px);
   }
 }
